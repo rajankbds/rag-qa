@@ -100,8 +100,8 @@ jobs:
             LOG_LEVEL=INFO
             LANGSMITH_TRACING=true
             LANGSMITH_API_KEY=${{ secrets.LANGSMITH_API_KEY }}
-            LANGSMITH_PROJECT=rag-qa-production
-            LANGSMITH_ENDPOINT=https://eu.api.smith.langchain.com
+            LANGSMITH_PROJECT=rag-project
+            LANGSMITH_ENDPOINT=https://api.smith.langchain.com
 
       - name: Output App Runner URL
         run: |
